@@ -3,7 +3,7 @@
 An interactive **HR Analytics Dashboard** built in **Microsoft Excel**.  
 It uses PivotTables, PivotCharts, and slicers to explore workforce metrics like attrition, hiring year, department, job involvement, work–life balance, and more.
 
-![Dashboard Overview](Screenshot 2025-08-15 204134.png)
+![Dashboard Overview](assets/Screenshot 2025-08-15 204134.png)
 ![Pivot Overview](assets/pivots-overview.png)
 
 > **Sheets:** `Dashboard`, `HR Data`, `pivot`  
