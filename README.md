@@ -3,8 +3,8 @@
 An interactive **HR Analytics Dashboard** built in **Microsoft Excel**.  
 It uses PivotTables, PivotCharts, and slicers to explore workforce metrics like attrition, hiring year, department, job involvement, work–life balance, and more.
 
-![Dashboard Overview](assets/Screenshot 2025-08-15 204134.png)
-![Pivot Overview](assets/Screenshot 2025-08-15 204234.png)
+![Dashboard Overview](Screenshot 2025-08-15 204134.png)
+![Pivot Overview](Screenshot 2025-08-15 204234.png)
 
 > **Sheets:** `Dashboard`, `HR Data`, `pivot`  
 > **Excel:** Office 365 / Excel 2019+
@@ -46,11 +46,6 @@ hr-analytics-dashboard-excel/
 │ └─ pivots-overview.png # Screenshot of pivot sheet (rename yours to this)
 ├─ data/ # (optional) place CSV/XLSX source files here
 └─ README.md
-
-
-If you already have screenshots named differently, just place them in `assets/` and update the image paths in this README.
-
----
 
 ## ▶️ How to use
 
@@ -114,7 +109,7 @@ If you already have screenshots named differently, just place them in `assets/` 
 
 3. **Insert PivotCharts**
    - Gender: Pie
-   - Others: Clustered Column (per the screenshot)
+   - Others: Clustered Column
 
 4. **Add slicers & connect them**
    - Insert slicers for: `Attrition`, `Hiring Year`, `Department`.
@@ -122,13 +117,10 @@ If you already have screenshots named differently, just place them in `assets/` 
 
 5. **Build KPI cards**
    - Insert Shapes for each KPI and link text boxes to the cells holding the KPI values  
-     (can use `=GETPIVOTDATA(...)` or direct pivot cells).
+     (can use `=pivot!(...)` or direct pivot cells).
 
 6. **Formatting**
-   - Clean titles, labels, and number formatting.
-   - Arrange charts in a grid layout to match the screenshot.
-
----
+   - Clean titles, labels, and number formatting
 
 ## 🧠 Interpreting the default (unfiltered) view
 
@@ -139,48 +131,17 @@ If you already have screenshots named differently, just place them in `assets/` 
 - **Travel:** Most employees are **Travel_Rarely**, then **Travel_Frequently**, then **Non-Travel**.  
 - **Education by gender:** All five levels are represented across Male/Female.
 
-> These figures update when you change slicers.
 
----
 
-## 📦 Requirements
-
-- Microsoft **Excel 2019 or Office 365** (recommended)
-- No external add-ins required
-
----
-
-## 🔁 Updating the data
-
-1. Replace/append rows in the **`HR Data`** sheet (keep headers consistent).
-2. **Data → Refresh All** to update all pivots, charts, and KPIs.
-3. Adjust slicer items if new categories appear.
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/my-update`
-3. Commit: `git commit -m "Add: new chart / fix formatting"`
-4. Push: `git push origin feature/my-update`
-5. Open a Pull Request
 
 ---
 
 ## 🖼️ Screenshots
 
 Place your images here and use these names:
-- `assets/dashboard-overview.png`
-- `assets/pivots-overview.png`
+- `Screenshot 2025-08-15 204134.png`
+- `Screenshot 2025-08-15 204234.png`
 
----
-
-## 📄 License
-
-MIT License. See `LICENSE` for details.
-
----
 
 ## 👤 Author
 
